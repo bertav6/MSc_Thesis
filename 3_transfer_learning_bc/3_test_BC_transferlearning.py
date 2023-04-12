@@ -210,4 +210,4 @@ with pd.option_context('display.max_rows', None,
     print(final_scores_random)
 
 #final_scores.to_csv(results_path+model_type+'_4s_200epochs_TL_cat_scores_'+str(num_folds)+'FOLDS_'+str(e)+'EPOCHS.csv')
-#final_scores_random.to_csv(results_path+model_type+'_RANDOM_4s_200epochs_TL_cat_scores_'+str(num_folds)+'FOLDS_'+str(e)+'EPOCHS.csv')
+#final_scores_random.to_csv(results_path+model_type+'_RANDOM_4s_200epochs_TL_cat_scores_'+str(num_folds)+'FOLDS_'+str(e)+'EPOCHS.csv') 
