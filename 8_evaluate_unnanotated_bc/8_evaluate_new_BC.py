@@ -80,4 +80,4 @@ for file in new_bc_files:
     print(file)
     file_name = re.findall(r'volunteer.+.edf', file)[0]
     mne.export.export_raw('/Users/bertavinas/Documents/DTU/Thesis/Code/examples_annotated_files/annotated_'+file_name, ref_raw[0], fmt='edf')
-    f = f+1
+    f = f+1 
