@@ -62,5 +62,3 @@ model_name = model_type+'_categorical_'+str(duration)+'s_'+str(e)+'epochs_dropou
 pd.DataFrame(fittedModel.history).plot(figsize=(8,5))
 #plt.savefig(path+model_type+'_cat_'+str(duration)+'s_model_history_'+str(e)+'epochs_dropout.png')
 #plt.show()
-
-
