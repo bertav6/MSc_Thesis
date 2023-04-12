@@ -91,4 +91,4 @@ print("Time to predict one epoch: ", time2-time1)
 
 # Timer
 time3 = time.time()
-print("TOTAL TIME: ", time3-time0)
+print("TOTAL TIME: ", time3-time0) 
